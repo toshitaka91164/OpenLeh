@@ -3,6 +3,6 @@
 
     <string name="app_name">OpenLeh</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello">The Login Page is here!</string>
 
 </resources>
