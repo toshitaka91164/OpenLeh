@@ -12,7 +12,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class Splash extends Activity {
-	private long splashDelay = 5000; //5 seconds
+	private long splashDelay = 3000; //5 seconds
 	
     /** Called when the activity is first created. */
     @Override
@@ -26,7 +26,7 @@ public class Splash extends Activity {
 			@Override
 			public void run() {
 				finish();
-				Intent mainIntent = new Intent().setClass(Splash.this, MainActivity.class);
+				Intent mainIntent = new Intent().setClass(Splash.this, LoginScreen.class);
 				startActivity(mainIntent);
 			}
         	
